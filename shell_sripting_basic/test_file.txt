@@ -1,1 +1,14 @@
 This is a text file used to test the shell scripting 
+I am entering these liness in my text files using my scrip "append_file.sh"
+These lines are appended after changeging the permission using the command chmod
+
+
+7-read,write and execute
+6-read and write
+5-read and execute
+4-read only
+3-write and execute
+2-write only
+1-execute only
+0-none
+
