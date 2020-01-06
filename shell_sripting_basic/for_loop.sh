@@ -63,3 +63,10 @@ do
     sleep 1
 done
 
+for command in ls pwd date free clear 
+do
+    echo "---------$command-----------"
+    $command
+    sleep 2
+done
+
