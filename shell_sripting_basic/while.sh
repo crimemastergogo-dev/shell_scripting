@@ -10,3 +10,26 @@ do
    #(( n++ ))        #post increment
    (( ++n ))        #pre increment
 done
+
+#using sleep with while loop
+n=1                     
+while [ $n -le 10 ]     
+do
+    echo "$n"
+   (( n++ ))        #post increment
+   sleep 1          #paue the loop for 1 sec
+done
+
+#opening three terminals using bash script
+
+#n=1                     
+#while [ $n -le 3 ]     
+#do
+ #   echo "$n"
+ #  (( n++ ))        #post increment
+ #  xterm &
+ #  sleep 1          #paue the loop for 1 sec
+#done
+
+
+
