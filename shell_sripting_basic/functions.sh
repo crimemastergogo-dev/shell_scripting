@@ -26,7 +26,7 @@ Quit(){   #declartion of method 2
 #Quit       #calling metod2
 Hello       #calling method1
 
-#*****passing arguments**
+#*****passing arguments*********
 
 function  print(){              #declaration
     echo $1   #fisrt argument
@@ -35,4 +35,20 @@ function  print(){              #declaration
 }
 
 print hello world   #calling
+
+
+#*****local variables*********
+
+function  print(){              #declaration
+    #name=$1         #global variable
+    local name=$1    #local variable
+    echo "the name in the function : $name"   #fisrt argument
+
+}
+name="hey"
+echo "Name before function : $name"
+print hello   #calling
+echo "Name after function : $name"
+
+
 
